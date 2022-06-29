@@ -1,0 +1,12 @@
+#%RAML 1.0
+title: KS-GitHub
+version: v2
+
+/examples:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            examples:
+              one: {"prop1": "anything", "prop2": "30"}
